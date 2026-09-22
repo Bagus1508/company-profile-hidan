@@ -1,7 +1,7 @@
 <template>
-  <section id="vision_mission" class="overflow-hidden bg-slate-100 pb-12 pt-20 lg:pb-[90px] lg:pt-[120px] text-gray-800">
+  <section id="vision_mission" class="overflow-hidden bg-slate-50 pb-12 pt-20 lg:pb-[90px] lg:pt-[120px] text-slate-800">
     <div class="container mx-auto">
-      <div class="lg:mx-20 max-sm:mx-10 flex flex-wrap items-center justify-between">
+      <div class="lg:mx-20 max-sm:mx-6 flex flex-wrap items-center justify-between">
         <div class="w-full px-4 lg:w-6/12">
           <div class="-mx-3 flex items-center sm:-mx-4">
             <div class="w-full px-3 sm:px-4 xl:w-1/2">
@@ -152,24 +152,33 @@
             </div>
           </div>
         </div>
-        <div class="w-full px-4 lg:w-1/2 xl:w-5/12" data-aos="zoom-in" data-aos-duration="500">
+        <div class="w-full px-4 lg:w-1/2 xl:w-5/12" data-aos="fade-up" data-aos-duration="500">
           <div class="mt-10 lg:mt-0">
-            <h2 class="mb-5 text-3xl font-bold sm:text-[40px]/[48px]">
+            <span class="mb-2 block text-lg font-semibold text-blue-600">
+              Tujuan Utama Kami
+            </span>
+            <h2 class="mb-6 text-3xl font-extrabold text-slate-900 sm:text-[40px]/[48px]">
                 Visi dan Misi Kami
             </h2>
-            <p class="mb-5 text-base text-body-color">
-                <h2 class="font-medium">🌟 Visi</h2>
-                Menjadi penyedia jasa kebersihan tandon air dan saluran mampet yang terpercaya, profesional, dan menjadi pilihan utama masyarakat dalam menjaga kebersihan dan kenyamanan hunian.
-            </p>
-            <p class="mb-8 text-base text-body-color">
-                <h2 class="font-medium">🎯 Misi</h2>
-                <ul>
-                    <li class="list-disc">Memberikan pelayanan terbaik dengan hasil kerja yang bersih, cepat, dan rapi.</li>
-                    <li class="list-disc">Mengutamakan kepuasan pelanggan melalui tenaga kerja berpengalaman dan peralatan lengkap.</li>
-                    <li class="list-disc">Menawarkan harga yang transparan dan kompetitif sesuai dengan kualitas layanan.</li>
-                    <li class="list-disc">Meningkatkan kesadaran masyarakat akan pentingnya kebersihan tandon air dan kelancaran saluran air.</li>
+            <div class="mb-6 p-5 bg-white rounded-xl shadow-sm border border-slate-100">
+                <h3 class="font-bold text-lg text-slate-800 mb-2 flex items-center gap-2">
+                  <i class="bi bi-compass text-blue-600 text-2xl"></i> Visi
+                </h3>
+                <p class="text-base text-slate-600 leading-relaxed">
+                  Menjadi penyedia jasa kebersihan tandon air dan saluran mampet yang terpercaya, profesional, dan menjadi pilihan utama masyarakat dalam menjaga kebersihan dan kenyamanan hunian.
+                </p>
+            </div>
+            <div class="p-5 bg-white rounded-xl shadow-sm border border-slate-100">
+                <h3 class="font-bold text-lg text-slate-800 mb-2 flex items-center gap-2">
+                  <i class="bi bi-bullseye text-blue-600 text-2xl"></i> Misi
+                </h3>
+                <ul class="space-y-2 text-slate-600">
+                    <li class="flex gap-2 items-start"><i class="bi bi-check2-circle text-blue-600 mt-1"></i> Memberikan pelayanan terbaik dengan hasil kerja yang bersih, cepat, dan rapi.</li>
+                    <li class="flex gap-2 items-start"><i class="bi bi-check2-circle text-blue-600 mt-1"></i> Mengutamakan kepuasan pelanggan melalui tenaga kerja berpengalaman dan peralatan lengkap.</li>
+                    <li class="flex gap-2 items-start"><i class="bi bi-check2-circle text-blue-600 mt-1"></i> Menawarkan harga yang transparan dan kompetitif sesuai dengan kualitas layanan.</li>
+                    <li class="flex gap-2 items-start"><i class="bi bi-check2-circle text-blue-600 mt-1"></i> Meningkatkan kesadaran masyarakat akan pentingnya kebersihan tandon air dan kelancaran saluran air.</li>
                 </ul>
-            </p>
+            </div>
           </div>
         </div>
       </div>

@@ -1,272 +1,61 @@
 <template>
-  <section class="relative z-10 overflow-hidden bg-slate-100 pb-12 pt-20 lg:pb-[90px] lg:pt-[120px] text-gray-800">
-    <div class="container mx-auto max-sm:px-10 lg:px-20">
+  <section class="relative z-10 overflow-hidden bg-slate-50 pb-16 pt-20 lg:pb-24 lg:pt-28 text-slate-800">
+    <div class="container mx-auto max-sm:px-6 lg:px-20">
       <div class="-mx-4 flex flex-wrap">
         <div class="w-full px-4">
-          <div class="mx-auto mb-[60px] max-w-[510px] text-center">
-            <h2 class="mb-3 text-3xl font-bold leading-[1.208] sm:text-4xl md:text-[40px]">
-              Area Layanan
+          <div class="mx-auto mb-14 max-w-[550px] text-center" data-aos="fade-up">
+            <span class="mb-2 block text-base font-semibold text-blue-600">
+              Jangkauan Operasional
+            </span>
+            <h2 class="mb-4 text-3xl font-extrabold sm:text-4xl text-slate-900">
+              Area Layanan Kami
             </h2>
-            <p class="text-base text-body-color">
-                Kami melayani jasa kuras tandon dan atasi saluran mampet di area:
+            <p class="text-base text-slate-600">
+              Kami siap meluncur cepat ke lokasi Anda dengan armada lengkap. Layanan tersedia 24 jam di kota:
             </p>
           </div>
         </div>
       </div>
 
-      <div class="-mx-4 flex flex-wrap justify-center">
-        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="0"
-            class="relative z-10 mb-10 overflow-hidden rounded-[10px] border-2 border-stroke bg-white px-8 py-10 shadow-pricing sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]-2  transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 hover:text-white">
-            <span class="mb-3 block text-lg font-semibold text-primary">
-              Surabaya
-            </span>
-            <div>
-              <span class="absolute right-0 top-7 z-[-1]">
-                <svg width="77" height="172" viewBox="0 0 77 172" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="86" cy="86" r="86" fill="url(#paint0_linear)" />
-                  <defs>
-                    <linearGradient id="paint0_linear" x1="86" y1="0" x2="86" y2="172" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#3056D3" stop-opacity="0.09" />
-                      <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </span>
-              <span class="absolute right-4 top-4 z-[-1]">
-                <svg width="41" height="89" viewBox="0 0 41 89" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="38.9138" cy="87.4849" r="1.42021" transform="rotate(180 38.9138 87.4849)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="74.9871" r="1.42021" transform="rotate(180 38.9138 74.9871)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="62.4892" r="1.42021" transform="rotate(180 38.9138 62.4892)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="38.3457" r="1.42021" transform="rotate(180 38.9138 38.3457)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="13.634" r="1.42021" transform="rotate(180 38.9138 13.634)" fill="#3056D3" />
-                  <circle cx="38.9138" cy="50.2754" r="1.42021" transform="rotate(180 38.9138 50.2754)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="26.1319" r="1.42021" transform="rotate(180 38.9138 26.1319)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="1.42021" r="1.42021" transform="rotate(180 38.9138 1.42021)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="87.4849" r="1.42021" transform="rotate(180 26.4157 87.4849)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="74.9871" r="1.42021" transform="rotate(180 26.4157 74.9871)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="62.4892" r="1.42021" transform="rotate(180 26.4157 62.4892)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="38.3457" r="1.42021" transform="rotate(180 26.4157 38.3457)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="13.634" r="1.42021" transform="rotate(180 26.4157 13.634)" fill="#3056D3" />
-                  <circle cx="26.4157" cy="50.2754" r="1.42021" transform="rotate(180 26.4157 50.2754)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="26.1319" r="1.42021" transform="rotate(180 26.4157 26.1319)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="1.4202" r="1.42021" transform="rotate(180 26.4157 1.4202)" fill="#3056D3" />
-                  <circle cx="13.9177" cy="87.4849" r="1.42021" transform="rotate(180 13.9177 87.4849)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="74.9871" r="1.42021" transform="rotate(180 13.9177 74.9871)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="62.4892" r="1.42021" transform="rotate(180 13.9177 62.4892)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="38.3457" r="1.42021" transform="rotate(180 13.9177 38.3457)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="13.634" r="1.42021" transform="rotate(180 13.9177 13.634)" fill="#3056D3" />
-                  <circle cx="13.9177" cy="50.2754" r="1.42021" transform="rotate(180 13.9177 50.2754)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="26.1319" r="1.42021" transform="rotate(180 13.9177 26.1319)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="1.42019" r="1.42021" transform="rotate(180 13.9177 1.42019)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="87.4849" r="1.42021" transform="rotate(180 1.41963 87.4849)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="74.9871" r="1.42021" transform="rotate(180 1.41963 74.9871)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="62.4892" r="1.42021" transform="rotate(180 1.41963 62.4892)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="38.3457" r="1.42021" transform="rotate(180 1.41963 38.3457)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="13.634" r="1.42021" transform="rotate(180 1.41963 13.634)" fill="#3056D3" />
-                  <circle cx="1.41963" cy="50.2754" r="1.42021" transform="rotate(180 1.41963 50.2754)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="26.1319" r="1.42021" transform="rotate(180 1.41963 26.1319)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="1.4202" r="1.42021" transform="rotate(180 1.41963 1.4202)" fill="#3056D3" />
-                </svg>
-              </span>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <!-- Surabaya -->
+        <div class="w-full" data-aos="fade-up" data-aos-delay="0">
+          <div class="group relative z-10 overflow-hidden rounded-2xl border border-slate-200/80 bg-white p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-blue-500">
+            <div class="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 transition-colors duration-300 group-hover:bg-blue-600 group-hover:text-white">
+              <i class="bi bi-geo-alt-fill text-3xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-slate-900 mb-2">Surabaya</h3>
+            <p class="text-sm text-slate-500">Surabaya Pusat, Timur, Barat, Selatan & Utara</p>
+            <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-center gap-1 text-xs font-semibold text-blue-600">
+              <i class="bi bi-truck"></i> Armada Siap Meluncur
             </div>
           </div>
         </div>
-        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="500"
-            class="relative z-10 mb-10 overflow-hidden rounded-[10px] border-2 border-stroke bg-white px-8 py-10 shadow-pricing sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]-2  transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 hover:text-white">
-            <span class="mb-3 block text-lg font-semibold text-primary">
-              Sidoarjo  
-            </span>
-            <div>
-              <span class="absolute right-0 top-7 z-[-1]">
-                <svg width="77" height="172" viewBox="0 0 77 172" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="86" cy="86" r="86" fill="url(#paint0_linear)" />
-                  <defs>
-                    <linearGradient id="paint0_linear" x1="86" y1="0" x2="86" y2="172" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#3056D3" stop-opacity="0.09" />
-                      <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </span>
-              <span class="absolute right-4 top-4 z-[-1]">
-                <svg width="41" height="89" viewBox="0 0 41 89" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="38.9138" cy="87.4849" r="1.42021" transform="rotate(180 38.9138 87.4849)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="74.9871" r="1.42021" transform="rotate(180 38.9138 74.9871)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="62.4892" r="1.42021" transform="rotate(180 38.9138 62.4892)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="38.3457" r="1.42021" transform="rotate(180 38.9138 38.3457)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="13.634" r="1.42021" transform="rotate(180 38.9138 13.634)" fill="#3056D3" />
-                  <circle cx="38.9138" cy="50.2754" r="1.42021" transform="rotate(180 38.9138 50.2754)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="26.1319" r="1.42021" transform="rotate(180 38.9138 26.1319)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="1.42021" r="1.42021" transform="rotate(180 38.9138 1.42021)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="87.4849" r="1.42021" transform="rotate(180 26.4157 87.4849)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="74.9871" r="1.42021" transform="rotate(180 26.4157 74.9871)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="62.4892" r="1.42021" transform="rotate(180 26.4157 62.4892)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="38.3457" r="1.42021" transform="rotate(180 26.4157 38.3457)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="13.634" r="1.42021" transform="rotate(180 26.4157 13.634)" fill="#3056D3" />
-                  <circle cx="26.4157" cy="50.2754" r="1.42021" transform="rotate(180 26.4157 50.2754)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="26.1319" r="1.42021" transform="rotate(180 26.4157 26.1319)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="1.4202" r="1.42021" transform="rotate(180 26.4157 1.4202)" fill="#3056D3" />
-                  <circle cx="13.9177" cy="87.4849" r="1.42021" transform="rotate(180 13.9177 87.4849)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="74.9871" r="1.42021" transform="rotate(180 13.9177 74.9871)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="62.4892" r="1.42021" transform="rotate(180 13.9177 62.4892)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="38.3457" r="1.42021" transform="rotate(180 13.9177 38.3457)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="13.634" r="1.42021" transform="rotate(180 13.9177 13.634)" fill="#3056D3" />
-                  <circle cx="13.9177" cy="50.2754" r="1.42021" transform="rotate(180 13.9177 50.2754)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="26.1319" r="1.42021" transform="rotate(180 13.9177 26.1319)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="1.42019" r="1.42021" transform="rotate(180 13.9177 1.42019)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="87.4849" r="1.42021" transform="rotate(180 1.41963 87.4849)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="74.9871" r="1.42021" transform="rotate(180 1.41963 74.9871)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="62.4892" r="1.42021" transform="rotate(180 1.41963 62.4892)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="38.3457" r="1.42021" transform="rotate(180 1.41963 38.3457)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="13.634" r="1.42021" transform="rotate(180 1.41963 13.634)" fill="#3056D3" />
-                  <circle cx="1.41963" cy="50.2754" r="1.42021" transform="rotate(180 1.41963 50.2754)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="26.1319" r="1.42021" transform="rotate(180 1.41963 26.1319)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="1.4202" r="1.42021" transform="rotate(180 1.41963 1.4202)" fill="#3056D3" />
-                </svg>
-              </span>
+
+        <!-- Sidoarjo -->
+        <div class="w-full" data-aos="fade-up" data-aos-delay="100">
+          <div class="group relative z-10 overflow-hidden rounded-2xl border border-slate-200/80 bg-white p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-blue-500">
+            <div class="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 transition-colors duration-300 group-hover:bg-blue-600 group-hover:text-white">
+              <i class="bi bi-geo-alt-fill text-3xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-slate-900 mb-2">Sidoarjo</h3>
+            <p class="text-sm text-slate-500">Waru, Gedangan, Candi, Porong, Krian, Sedati & Sekitarnya</p>
+            <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-center gap-1 text-xs font-semibold text-blue-600">
+              <i class="bi bi-truck"></i> Armada Siap Meluncur
             </div>
           </div>
         </div>
-        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="1000"
-            class="relative z-10 mb-10 overflow-hidden rounded-[10px] border-2 border-stroke bg-white px-8 py-10 shadow-pricing sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]-2  transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 hover:text-white">
-            <span class="mb-3 block text-lg font-semibold text-primary">
-              Gresik
-            </span>
-            <div>
-              <span class="absolute right-0 top-7 z-[-1]">
-                <svg width="77" height="172" viewBox="0 0 77 172" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="86" cy="86" r="86" fill="url(#paint0_linear)" />
-                  <defs>
-                    <linearGradient id="paint0_linear" x1="86" y1="0" x2="86" y2="172" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#3056D3" stop-opacity="0.09" />
-                      <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </span>
-              <span class="absolute right-4 top-4 z-[-1]">
-                <svg width="41" height="89" viewBox="0 0 41 89" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="38.9138" cy="87.4849" r="1.42021" transform="rotate(180 38.9138 87.4849)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="74.9871" r="1.42021" transform="rotate(180 38.9138 74.9871)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="62.4892" r="1.42021" transform="rotate(180 38.9138 62.4892)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="38.3457" r="1.42021" transform="rotate(180 38.9138 38.3457)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="13.634" r="1.42021" transform="rotate(180 38.9138 13.634)" fill="#3056D3" />
-                  <circle cx="38.9138" cy="50.2754" r="1.42021" transform="rotate(180 38.9138 50.2754)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="26.1319" r="1.42021" transform="rotate(180 38.9138 26.1319)"
-                    fill="#3056D3" />
-                  <circle cx="38.9138" cy="1.42021" r="1.42021" transform="rotate(180 38.9138 1.42021)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="87.4849" r="1.42021" transform="rotate(180 26.4157 87.4849)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="74.9871" r="1.42021" transform="rotate(180 26.4157 74.9871)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="62.4892" r="1.42021" transform="rotate(180 26.4157 62.4892)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="38.3457" r="1.42021" transform="rotate(180 26.4157 38.3457)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="13.634" r="1.42021" transform="rotate(180 26.4157 13.634)" fill="#3056D3" />
-                  <circle cx="26.4157" cy="50.2754" r="1.42021" transform="rotate(180 26.4157 50.2754)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="26.1319" r="1.42021" transform="rotate(180 26.4157 26.1319)"
-                    fill="#3056D3" />
-                  <circle cx="26.4157" cy="1.4202" r="1.42021" transform="rotate(180 26.4157 1.4202)" fill="#3056D3" />
-                  <circle cx="13.9177" cy="87.4849" r="1.42021" transform="rotate(180 13.9177 87.4849)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="74.9871" r="1.42021" transform="rotate(180 13.9177 74.9871)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="62.4892" r="1.42021" transform="rotate(180 13.9177 62.4892)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="38.3457" r="1.42021" transform="rotate(180 13.9177 38.3457)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="13.634" r="1.42021" transform="rotate(180 13.9177 13.634)" fill="#3056D3" />
-                  <circle cx="13.9177" cy="50.2754" r="1.42021" transform="rotate(180 13.9177 50.2754)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="26.1319" r="1.42021" transform="rotate(180 13.9177 26.1319)"
-                    fill="#3056D3" />
-                  <circle cx="13.9177" cy="1.42019" r="1.42021" transform="rotate(180 13.9177 1.42019)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="87.4849" r="1.42021" transform="rotate(180 1.41963 87.4849)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="74.9871" r="1.42021" transform="rotate(180 1.41963 74.9871)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="62.4892" r="1.42021" transform="rotate(180 1.41963 62.4892)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="38.3457" r="1.42021" transform="rotate(180 1.41963 38.3457)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="13.634" r="1.42021" transform="rotate(180 1.41963 13.634)" fill="#3056D3" />
-                  <circle cx="1.41963" cy="50.2754" r="1.42021" transform="rotate(180 1.41963 50.2754)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="26.1319" r="1.42021" transform="rotate(180 1.41963 26.1319)"
-                    fill="#3056D3" />
-                  <circle cx="1.41963" cy="1.4202" r="1.42021" transform="rotate(180 1.41963 1.4202)" fill="#3056D3" />
-                </svg>
-              </span>
+
+        <!-- Gresik -->
+        <div class="w-full" data-aos="fade-up" data-aos-delay="200">
+          <div class="group relative z-10 overflow-hidden rounded-2xl border border-slate-200/80 bg-white p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-blue-500">
+            <div class="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 transition-colors duration-300 group-hover:bg-blue-600 group-hover:text-white">
+              <i class="bi bi-geo-alt-fill text-3xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-slate-900 mb-2">Gresik</h3>
+            <p class="text-sm text-slate-500">Kebomas, Driyorejo, Menganti, Manyar & Sekitarnya</p>
+            <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-center gap-1 text-xs font-semibold text-blue-600">
+              <i class="bi bi-truck"></i> Armada Siap Meluncur
             </div>
           </div>
         </div>
@@ -276,5 +65,4 @@
 </template>
 
 <script setup>
-
 </script>

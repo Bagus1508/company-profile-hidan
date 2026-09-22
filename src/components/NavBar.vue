@@ -7,46 +7,43 @@
       <!-- expands the white background as scroll -->
     </div>
 
-    <div class="flex w-max place-items-center gap-3">
-      <!-- <img src="./assets/public accountant.jpg"
-                alt="Stroemer logo" class="w-full h-full object"> -->
-      <div class="h-[50px] w-[50px] p-[4px]">
-        <img src="/src/assets/logo.png" alt="logo" class="object h-full w-full bg-white rounded-full" />
+    <div class="flex w-max place-items-center gap-2.5 cursor-pointer" @click="goToSection('hero-section', '/')">
+      <div class="h-[46px] w-[46px] p-1">
+        <img src="/src/assets/logo.png" alt="logo" class="object-contain h-full w-full bg-white rounded-full shadow-sm" />
       </div>
+      <span :class="['font-bold text-base tracking-tight transition-colors duration-300', isScrolled ? 'text-slate-900' : 'text-white']">
+        Ahli Mampet &amp; Sedot WC
+      </span>
     </div>
     <div class="collapsible-header animated-collapse flex items-center justify-between gap-4" id="collapsed-items">
       <div
-        :class="['flex h-full w-max gap-5 text-base text-white max-lg:mt-[30px] max-lg:flex-col max-lg:place-items-end max-lg:gap-5 lg:mx-auto lg:place-items-center', isScrolled ? 'text-gray-800' : 'text-white']">
-        <a :class="['header-links', isScrolled ? 'text-gray-800 max-sm:text-white' : 'text-white']" href="#about_us"
+        :class="['flex h-full w-max gap-6 text-sm font-semibold max-lg:mt-[30px] max-lg:flex-col max-lg:place-items-end max-lg:gap-5 lg:mx-auto lg:place-items-center', isScrolled ? 'text-slate-700' : 'text-white']">
+        <a :class="['header-links hover:text-blue-500 transition-colors', isScrolled ? 'text-slate-800 max-sm:text-white' : 'text-white']" href="#about_us"
           @click.prevent="goToSection('about_us', '/about')">
           Tentang Kami
         </a>
-        <a :class="['header-links', isScrolled ? 'text-gray-800 max-sm:text-white' : 'text-white']"
+        <a :class="['header-links hover:text-blue-500 transition-colors', isScrolled ? 'text-slate-800 max-sm:text-white' : 'text-white']"
           href="#vision_mission" @click.prevent="goToSection('vision_mission', '/vision')">
           Visi Misi
         </a>
-        <a :class="['header-links', isScrolled ? 'text-gray-800 max-sm:text-white' : 'text-white']" href="#services"
+        <a :class="['header-links hover:text-blue-500 transition-colors', isScrolled ? 'text-slate-800 max-sm:text-white' : 'text-white']" href="#services"
           @click.prevent="goToSection('services', '/services')">
           Layanan Kami
         </a>
-        <a :class="['header-links', isScrolled ? 'text-gray-800 max-sm:text-white' : 'text-white']" href="#contact_us"
+        <a :class="['header-links hover:text-blue-500 transition-colors', isScrolled ? 'text-slate-800 max-sm:text-white' : 'text-white']" href="#contact_us"
           @click.prevent="goToSection('contact_us', '/contact')">
           Hubungi Kami
         </a>
       </div>
       <div
-        :class="['flex place-items-center gap-[20px] text-xl max-lg:w-full max-lg:place-content-center max-lg:!text-white', isScrolled ? 'text-gray-800' : 'text-white']">
-        <!-- <a href="https://www.instagram.com/" target="_blank" rel="no-referrer" area-label="instagram"
-                    class="header-links transition-colors duration-[0.3s]">
-                    <i class="bi bi-instagram"></i>
-                </a>
-                <a href="https://twitter.com/pauls_freeman" target="_blank" rel="no-referrer" area-label="twitter"
-                    class="header-links transition-colors duration-[0.3s]">
-                    <i class="bi bi-twitter"></i>
-                </a> -->
-        <a href="https://www.facebook.com/share/18nbDrazZo/" target="_blank" rel="no-referrer" area-label="facebook"
-          class="header-links transition-colors duration-[0.3s]">
+        :class="['flex place-items-center gap-3 text-lg max-lg:w-full max-lg:place-content-center max-lg:!text-white', isScrolled ? 'text-slate-700' : 'text-white']">
+        <a href="https://www.facebook.com/share/18nbDrazZo/" target="_blank" rel="noopener" aria-label="facebook"
+          class="h-8 w-8 rounded-full flex items-center justify-center transition-colors duration-300 hover:text-blue-500">
           <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://wa.me/6287810816155" target="_blank" rel="noopener"
+          class="hidden lg:inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold shadow transition-all">
+          <i class="bi bi-whatsapp"></i> Chat WA
         </a>
       </div>
     </div>

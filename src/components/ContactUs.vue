@@ -1,297 +1,183 @@
 <template>
-  <section id="contact_us" class="relative z-10 overflow-hidden bg-gray-300 py-20 lg:py-[120px] text-gray-800">
-    <div class="container mx-auto">
-      <div class="lg:mx-20 max-sm:mx-10 flex flex-wrap lg:justify-between">
-        <div class="w-full px-4 lg:w-1/2 xl:w-6/12" data-aos="fade-left" data-aos-duration="5000">
-          <div class="mb-12 max-w-[570px] lg:mb-0">
-            <span class="mb-4 block text-xl font-semibold text-primary">
-              Hubungi Kami
+  <section id="contact_us" class="relative z-10 overflow-hidden bg-white pt-16 lg:pt-24 pb-0 text-slate-800">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-20">
+      <div class="flex flex-wrap lg:justify-between items-start gap-12">
+        <!-- Contact Info Column -->
+        <div class="w-full lg:w-5/12" data-aos="fade-up" data-aos-duration="600">
+          <div class="max-w-[540px]">
+            <span class="mb-2 inline-block text-base font-semibold text-blue-600">
+              Layanan 24 Jam
             </span>
-            <h2
-              class="mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-              Silakan Hubungi Kami
+            <h2 class="mb-4 text-3xl font-extrabold sm:text-4xl text-slate-900">
+              Hubungi Kami Kapan Saja
             </h2>
-            <p class="mb-9 text-xl leading-relaxed text-body-color ">
-                Punya pertanyaan atau butuh bantuan segera? <br>
-                Tim kami siap melayani Anda dengan cepat dan ramah. <br>
-                Silakan hubungi kami melalui WhatsApp atau telepon di bawah ini. <br>
-                <br>
-                Kami melayani area Surabaya, Sidoarjo, dan Gresik – dan siap datang ke lokasi Anda sesuai permintaan.
+            <p class="mb-8 text-base leading-relaxed text-slate-600">
+              Punya masalah saluran mampet atau septic tank penuh yang mendesak? Tim kami siap meluncur cepat dengan respon ramah dan solusi tuntas ke lokasi Anda di Surabaya, Sidoarjo, dan Gresik.
             </p>
 
-            <div class="mb-8 flex w-full max-w-[370px]">
-              <div
-                class="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded-sm bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M30.6 11.8002L17.7 3.5002C16.65 2.8502 15.3 2.8502 14.3 3.5002L1.39998 11.8002C0.899983 12.1502 0.749983 12.8502 1.04998 13.3502C1.39998 13.8502 2.09998 14.0002 2.59998 13.7002L3.44998 13.1502V25.8002C3.44998 27.5502 4.84998 28.9502 6.59998 28.9502H25.4C27.15 28.9502 28.55 27.5502 28.55 25.8002V13.1502L29.4 13.7002C29.6 13.8002 29.8 13.9002 30 13.9002C30.35 13.9002 30.75 13.7002 30.95 13.4002C31.3 12.8502 31.15 12.1502 30.6 11.8002ZM13.35 26.7502V18.5002C13.35 18.0002 13.75 17.6002 14.25 17.6002H17.75C18.25 17.6002 18.65 18.0002 18.65 18.5002V26.7502H13.35ZM26.3 25.8002C26.3 26.3002 25.9 26.7002 25.4 26.7002H20.9V18.5002C20.9 16.8002 19.5 15.4002 17.8 15.4002H14.3C12.6 15.4002 11.2 16.8002 11.2 18.5002V26.7502H6.69998C6.19998 26.7502 5.79998 26.3502 5.79998 25.8502V11.7002L15.5 5.4002C15.8 5.2002 16.2 5.2002 16.5 5.4002L26.3 11.7002V25.8002Z"
-                    fill="currentColor" />
-                </svg>
+            <div class="space-y-5">
+              <!-- Address -->
+              <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100 transition-all hover:border-blue-200 hover:shadow-sm">
+                <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-100/70 text-blue-600 text-xl">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wide">
+                    Alamat Kantor
+                  </h4>
+                  <p class="mt-1 text-sm text-slate-600 leading-relaxed">
+                    Jl. Berbek I F No. 19, Waru, Sidoarjo, Jawa Timur 61256
+                  </p>
+                </div>
               </div>
-              <div class="w-full">
-                <h4 class="mb-1 text-xl font-bold">
-                  Alamat Kami :
-                </h4>
-                <p class="text-base text-body-color ">
-                  Jl. Berbek I F No. 19, Waru, Sidoarjo, Jawa Timur 61256
-                </p>
-              </div>
-            </div>
 
-            <div class="mb-8 flex w-full max-w-[370px]">
-              <div
-                class="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded-sm bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g clip-path="url(#clip0_941_17577)">
-                    <path
-                      d="M24.3 31.1499C22.95 31.1499 21.4 30.7999 19.7 30.1499C16.3 28.7999 12.55 26.1999 9.19997 22.8499C5.84997 19.4999 3.24997 15.7499 1.89997 12.2999C0.39997 8.59994 0.54997 5.54994 2.29997 3.84994C2.34997 3.79994 2.44997 3.74994 2.49997 3.69994L6.69997 1.19994C7.74997 0.599942 9.09997 0.899942 9.79997 1.89994L12.75 6.29994C13.45 7.34994 13.15 8.74994 12.15 9.44994L10.35 10.6999C11.65 12.7999 15.35 17.9499 21.25 21.6499L22.35 20.0499C23.2 18.8499 24.55 18.4999 25.65 19.2499L30.05 22.1999C31.05 22.8999 31.35 24.2499 30.75 25.2999L28.25 29.4999C28.2 29.5999 28.15 29.6499 28.1 29.6999C27.2 30.6499 25.9 31.1499 24.3 31.1499ZM3.79997 5.54994C2.84997 6.59994 2.89997 8.74994 3.99997 11.4999C5.24997 14.6499 7.64997 18.0999 10.8 21.2499C13.9 24.3499 17.4 26.7499 20.5 27.9999C23.2 29.0999 25.35 29.1499 26.45 28.1999L28.85 24.0999C28.85 24.0499 28.85 24.0499 28.85 23.9999L24.45 21.0499C24.45 21.0499 24.35 21.0999 24.25 21.2499L23.15 22.8499C22.45 23.8499 21.1 24.1499 20.1 23.4999C13.8 19.5999 9.89997 14.1499 8.49997 11.9499C7.84997 10.8999 8.09997 9.54994 9.09997 8.84994L10.9 7.59994V7.54994L7.94997 3.14994C7.94997 3.09994 7.89997 3.09994 7.84997 3.14994L3.79997 5.54994Z"
-                      fill="currentColor" />
-                    <path
-                      d="M29.3 14.25C28.7 14.25 28.25 13.8 28.2 13.2C27.8 8.15003 23.65 4.10003 18.55 3.75003C17.95 3.70003 17.45 3.20003 17.5 2.55003C17.55 1.95003 18.05 1.45003 18.7 1.50003C24.9 1.90003 29.95 6.80003 30.45 13C30.5 13.6 30.05 14.15 29.4 14.2C29.4 14.25 29.35 14.25 29.3 14.25Z"
-                      fill="currentColor" />
-                    <path
-                      d="M24.35 14.7002C23.8 14.7002 23.3 14.3002 23.25 13.7002C22.95 11.0002 20.85 8.90018 18.15 8.55018C17.55 8.50018 17.1 7.90018 17.15 7.30018C17.2 6.70018 17.8 6.25018 18.4 6.30018C22.15 6.75018 25.05 9.65018 25.5 13.4002C25.55 14.0002 25.15 14.5502 24.5 14.6502C24.4 14.7002 24.35 14.7002 24.35 14.7002Z"
-                      fill="currentColor" />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_941_17577">
-                      <rect width="32" height="32" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
+              <!-- Phone & WhatsApp -->
+              <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100 transition-all hover:border-blue-200 hover:shadow-sm">
+                <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-emerald-100/70 text-emerald-600 text-xl">
+                  <i class="bi bi-whatsapp"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wide">
+                    Telepon & WhatsApp
+                  </h4>
+                  <div class="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-sm text-slate-700 font-medium">
+                    <a href="https://wa.me/6287810816155?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20AHLI%20MAMPET%20DAN%20SEDOT%20WC." 
+                       target="_blank" 
+                       class="text-emerald-700 hover:underline inline-flex items-center gap-1">
+                      <i class="bi bi-chat-dots"></i> WA: 0878-1081-6155
+                    </a>
+                    <a href="tel:6282145300565" 
+                       class="text-blue-700 hover:underline inline-flex items-center gap-1">
+                      <i class="bi bi-telephone-fill"></i> Telp: 0821-4530-0565
+                    </a>
+                  </div>
+                </div>
               </div>
-              <div class="w-full">
-                <h4 class="mb-1 text-xl font-bold">
-                  No Telepon/Whatsapp
-                </h4>
-                <p class="text-base text-body-color ">
-                  Whatsapp : 087810816155
-                </p>
-                <p class="text-base text-body-color ">
-                  Telepon : 082145300565
-                </p>
-              </div>
-            </div>
 
-            <div class="mb-8 flex w-full max-w-[370px]">
-              <div
-                class="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded-sm bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M28 4.7998H3.99998C2.29998 4.7998 0.849976 6.1998 0.849976 7.9498V24.1498C0.849976 25.8498 2.24998 27.2998 3.99998 27.2998H28C29.7 27.2998 31.15 25.8998 31.15 24.1498V7.8998C31.15 6.1998 29.7 4.7998 28 4.7998ZM28 7.0498C28.05 7.0498 28.1 7.0498 28.15 7.0498L16 14.8498L3.84998 7.0498C3.89998 7.0498 3.94998 7.0498 3.99998 7.0498H28ZM28 24.9498H3.99998C3.49998 24.9498 3.09998 24.5498 3.09998 24.0498V9.2498L14.8 16.7498C15.15 16.9998 15.55 17.0998 15.95 17.0998C16.35 17.0998 16.75 16.9998 17.1 16.7498L28.8 9.2498V24.0998C28.9 24.5998 28.5 24.9498 28 24.9498Z"
-                    fill="currentColor" />
-                </svg>
+              <!-- Email -->
+              <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100 transition-all hover:border-blue-200 hover:shadow-sm">
+                <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-100/70 text-blue-600 text-xl">
+                  <i class="bi bi-envelope-fill"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wide">
+                    Email Kami
+                  </h4>
+                  <a href="mailto:saluranmampetsidoarjo@gmail.com" class="mt-1 block text-sm text-slate-600 hover:text-blue-600">
+                    saluranmampetsidoarjo@gmail.com
+                  </a>
+                </div>
               </div>
-              <div class="w-full">
-                <h4 class="mb-1 text-xl font-bold">
-                  Alamat Email
-                </h4>
-                <p class="text-base text-body-color ">
-                  saluranmampetsidoarjo@gmail.com
-                </p>
+
+              <!-- Operating Hours -->
+              <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100 transition-all hover:border-blue-200 hover:shadow-sm">
+                <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-100/70 text-blue-600 text-xl">
+                  <i class="bi bi-clock-history"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wide">
+                    Jam Operasional
+                  </h4>
+                  <p class="mt-1 text-sm text-slate-600">
+                    Buka 24 Jam Setiap Hari (Termasuk Hari Libur & Tanggal Merah)
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
-          <div class="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
-            <div class="w-full flex justify-center">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.0763144741773!2d112.7594813!3d-7.345327399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb2b21b2ce51%3A0x257993a0a86e813d!2sJl.%20Berbek%20I%20F%20No.19%2C%20Bebek%2C%20Berbek%2C%20Kec.%20Waru%2C%20Kabupaten%20Sidoarjo%2C%20Jawa%20Timur%2061256!5e0!3m2!1sid!2sid!4v1746727604313!5m2!1sid!2sid"
-                    class="mx-auto block border-0 h-[300px] lg:w-[500px] max-sm:w-[200px]"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe><br>
-            </div>
-            <div class="mt-5 flex justify-end">
-                <a href="https://maps.app.goo.gl/k1bXvVhideJ2nhbh7" target="_blank" class="bg-blue-500 px-5 py-2 rounded-md text-white hover:bg-blue-600 text-lg">Lihat Peta</a>
-            </div>
-            <div>
-              <span class="absolute -right-9 -top-10 z-[-1]">
-                <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M0 100C0 44.7715 0 0 0 0C55.2285 0 100 44.7715 100 100C100 100 100 100 0 100Z" fill="#3056D3" />
-                </svg>
+
+        <!-- Google Map Column -->
+        <div class="w-full lg:w-6/12" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">
+          <div class="relative rounded-2xl bg-white p-4 sm:p-6 shadow-xl border border-slate-200/80">
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-sm font-bold uppercase tracking-wider text-slate-700 flex items-center gap-2">
+                <i class="bi bi-pin-map-fill text-blue-600"></i> Lokasi Pangkalan Kami
               </span>
-              <span class="absolute -right-10 top-[90px] z-[-1]">
-                <svg width="34" height="134" viewBox="0 0 34 134" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="31.9993" cy="132" r="1.66667" transform="rotate(180 31.9993 132)" fill="#13C296" />
-                  <circle cx="31.9993" cy="117.333" r="1.66667" transform="rotate(180 31.9993 117.333)"
-                    fill="#13C296" />
-                  <circle cx="31.9993" cy="102.667" r="1.66667" transform="rotate(180 31.9993 102.667)"
-                    fill="#13C296" />
-                  <circle cx="31.9993" cy="88" r="1.66667" transform="rotate(180 31.9993 88)" fill="#13C296" />
-                  <circle cx="31.9993" cy="73.3333" r="1.66667" transform="rotate(180 31.9993 73.3333)"
-                    fill="#13C296" />
-                  <circle cx="31.9993" cy="45" r="1.66667" transform="rotate(180 31.9993 45)" fill="#13C296" />
-                  <circle cx="31.9993" cy="16" r="1.66667" transform="rotate(180 31.9993 16)" fill="#13C296" />
-                  <circle cx="31.9993" cy="59" r="1.66667" transform="rotate(180 31.9993 59)" fill="#13C296" />
-                  <circle cx="31.9993" cy="30.6666" r="1.66667" transform="rotate(180 31.9993 30.6666)"
-                    fill="#13C296" />
-                  <circle cx="31.9993" cy="1.66665" r="1.66667" transform="rotate(180 31.9993 1.66665)"
-                    fill="#13C296" />
-                  <circle cx="17.3333" cy="132" r="1.66667" transform="rotate(180 17.3333 132)" fill="#13C296" />
-                  <circle cx="17.3333" cy="117.333" r="1.66667" transform="rotate(180 17.3333 117.333)"
-                    fill="#13C296" />
-                  <circle cx="17.3333" cy="102.667" r="1.66667" transform="rotate(180 17.3333 102.667)"
-                    fill="#13C296" />
-                  <circle cx="17.3333" cy="88" r="1.66667" transform="rotate(180 17.3333 88)" fill="#13C296" />
-                  <circle cx="17.3333" cy="73.3333" r="1.66667" transform="rotate(180 17.3333 73.3333)"
-                    fill="#13C296" />
-                  <circle cx="17.3333" cy="45" r="1.66667" transform="rotate(180 17.3333 45)" fill="#13C296" />
-                  <circle cx="17.3333" cy="16" r="1.66667" transform="rotate(180 17.3333 16)" fill="#13C296" />
-                  <circle cx="17.3333" cy="59" r="1.66667" transform="rotate(180 17.3333 59)" fill="#13C296" />
-                  <circle cx="17.3333" cy="30.6666" r="1.66667" transform="rotate(180 17.3333 30.6666)"
-                    fill="#13C296" />
-                  <circle cx="17.3333" cy="1.66665" r="1.66667" transform="rotate(180 17.3333 1.66665)"
-                    fill="#13C296" />
-                  <circle cx="2.66536" cy="132" r="1.66667" transform="rotate(180 2.66536 132)" fill="#13C296" />
-                  <circle cx="2.66536" cy="117.333" r="1.66667" transform="rotate(180 2.66536 117.333)"
-                    fill="#13C296" />
-                  <circle cx="2.66536" cy="102.667" r="1.66667" transform="rotate(180 2.66536 102.667)"
-                    fill="#13C296" />
-                  <circle cx="2.66536" cy="88" r="1.66667" transform="rotate(180 2.66536 88)" fill="#13C296" />
-                  <circle cx="2.66536" cy="73.3333" r="1.66667" transform="rotate(180 2.66536 73.3333)"
-                    fill="#13C296" />
-                  <circle cx="2.66536" cy="45" r="1.66667" transform="rotate(180 2.66536 45)" fill="#13C296" />
-                  <circle cx="2.66536" cy="16" r="1.66667" transform="rotate(180 2.66536 16)" fill="#13C296" />
-                  <circle cx="2.66536" cy="59" r="1.66667" transform="rotate(180 2.66536 59)" fill="#13C296" />
-                  <circle cx="2.66536" cy="30.6666" r="1.66667" transform="rotate(180 2.66536 30.6666)"
-                    fill="#13C296" />
-                  <circle cx="2.66536" cy="1.66665" r="1.66667" transform="rotate(180 2.66536 1.66665)"
-                    fill="#13C296" />
-                </svg>
+              <a href="https://maps.app.goo.gl/k1bXvVhideJ2nhbh7" 
+                 target="_blank" 
+                 class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg bg-blue-50 text-blue-700 hover:bg-blue-600 hover:text-white transition-colors">
+                <i class="bi bi-box-arrow-up-right"></i> Buka di Google Maps
+              </a>
+            </div>
+            
+            <div class="w-full overflow-hidden rounded-xl border border-slate-200 shadow-inner">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.0763144741773!2d112.7594813!3d-7.345327399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb2b21b2ce51%3A0x257993a0a86e813d!2sJl.%20Berbek%20I%20F%20No.19%2C%20Bebek%2C%20Berbek%2C%20Kec.%20Waru%2C%20Kabupaten%20Sidoarjo%2C%20Jawa%20Timur%2061256!5e0!3m2!1sid!2sid!4v1746727604313!5m2!1sid!2sid"
+                class="w-full h-[320px] sm:h-[380px] border-0 block"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+
+            <div class="mt-4 flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-slate-100 text-xs text-slate-500">
+              <span class="flex items-center gap-1">
+                <i class="bi bi-shield-check text-emerald-600 text-sm"></i> Layanan Terverifikasi & Resmi
               </span>
-              <span class="absolute -bottom-7 -left-7 z-[-1]">
-                <svg width="107" height="134" viewBox="0 0 107 134" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="104.999" cy="132" r="1.66667" transform="rotate(180 104.999 132)" fill="#13C296" />
-                  <circle cx="104.999" cy="117.333" r="1.66667" transform="rotate(180 104.999 117.333)"
-                    fill="#13C296" />
-                  <circle cx="104.999" cy="102.667" r="1.66667" transform="rotate(180 104.999 102.667)"
-                    fill="#13C296" />
-                  <circle cx="104.999" cy="88" r="1.66667" transform="rotate(180 104.999 88)" fill="#13C296" />
-                  <circle cx="104.999" cy="73.3333" r="1.66667" transform="rotate(180 104.999 73.3333)"
-                    fill="#13C296" />
-                  <circle cx="104.999" cy="45" r="1.66667" transform="rotate(180 104.999 45)" fill="#13C296" />
-                  <circle cx="104.999" cy="16" r="1.66667" transform="rotate(180 104.999 16)" fill="#13C296" />
-                  <circle cx="104.999" cy="59" r="1.66667" transform="rotate(180 104.999 59)" fill="#13C296" />
-                  <circle cx="104.999" cy="30.6666" r="1.66667" transform="rotate(180 104.999 30.6666)"
-                    fill="#13C296" />
-                  <circle cx="104.999" cy="1.66665" r="1.66667" transform="rotate(180 104.999 1.66665)"
-                    fill="#13C296" />
-                  <circle cx="90.3333" cy="132" r="1.66667" transform="rotate(180 90.3333 132)" fill="#13C296" />
-                  <circle cx="90.3333" cy="117.333" r="1.66667" transform="rotate(180 90.3333 117.333)"
-                    fill="#13C296" />
-                  <circle cx="90.3333" cy="102.667" r="1.66667" transform="rotate(180 90.3333 102.667)"
-                    fill="#13C296" />
-                  <circle cx="90.3333" cy="88" r="1.66667" transform="rotate(180 90.3333 88)" fill="#13C296" />
-                  <circle cx="90.3333" cy="73.3333" r="1.66667" transform="rotate(180 90.3333 73.3333)"
-                    fill="#13C296" />
-                  <circle cx="90.3333" cy="45" r="1.66667" transform="rotate(180 90.3333 45)" fill="#13C296" />
-                  <circle cx="90.3333" cy="16" r="1.66667" transform="rotate(180 90.3333 16)" fill="#13C296" />
-                  <circle cx="90.3333" cy="59" r="1.66667" transform="rotate(180 90.3333 59)" fill="#13C296" />
-                  <circle cx="90.3333" cy="30.6666" r="1.66667" transform="rotate(180 90.3333 30.6666)"
-                    fill="#13C296" />
-                  <circle cx="90.3333" cy="1.66665" r="1.66667" transform="rotate(180 90.3333 1.66665)"
-                    fill="#13C296" />
-                  <circle cx="75.6654" cy="132" r="1.66667" transform="rotate(180 75.6654 132)" fill="#13C296" />
-                  <circle cx="31.9993" cy="132" r="1.66667" transform="rotate(180 31.9993 132)" fill="#13C296" />
-                  <circle cx="75.6654" cy="117.333" r="1.66667" transform="rotate(180 75.6654 117.333)"
-                    fill="#13C296" />
-                  <circle cx="31.9993" cy="117.333" r="1.66667" transform="rotate(180 31.9993 117.333)"
-                    fill="#13C296" />
-                  <circle cx="75.6654" cy="102.667" r="1.66667" transform="rotate(180 75.6654 102.667)"
-                    fill="#13C296" />
-                  <circle cx="31.9993" cy="102.667" r="1.66667" transform="rotate(180 31.9993 102.667)"
-                    fill="#13C296" />
-                  <circle cx="75.6654" cy="88" r="1.66667" transform="rotate(180 75.6654 88)" fill="#13C296" />
-                  <circle cx="31.9993" cy="88" r="1.66667" transform="rotate(180 31.9993 88)" fill="#13C296" />
-                  <circle cx="75.6654" cy="73.3333" r="1.66667" transform="rotate(180 75.6654 73.3333)"
-                    fill="#13C296" />
-                  <circle cx="31.9993" cy="73.3333" r="1.66667" transform="rotate(180 31.9993 73.3333)"
-                    fill="#13C296" />
-                  <circle cx="75.6654" cy="45" r="1.66667" transform="rotate(180 75.6654 45)" fill="#13C296" />
-                  <circle cx="31.9993" cy="45" r="1.66667" transform="rotate(180 31.9993 45)" fill="#13C296" />
-                  <circle cx="75.6654" cy="16" r="1.66667" transform="rotate(180 75.6654 16)" fill="#13C296" />
-                  <circle cx="31.9993" cy="16" r="1.66667" transform="rotate(180 31.9993 16)" fill="#13C296" />
-                  <circle cx="75.6654" cy="59" r="1.66667" transform="rotate(180 75.6654 59)" fill="#13C296" />
-                  <circle cx="31.9993" cy="59" r="1.66667" transform="rotate(180 31.9993 59)" fill="#13C296" />
-                  <circle cx="75.6654" cy="30.6666" r="1.66667" transform="rotate(180 75.6654 30.6666)"
-                    fill="#13C296" />
-                  <circle cx="31.9993" cy="30.6666" r="1.66667" transform="rotate(180 31.9993 30.6666)"
-                    fill="#13C296" />
-                  <circle cx="75.6654" cy="1.66665" r="1.66667" transform="rotate(180 75.6654 1.66665)"
-                    fill="#13C296" />
-                  <circle cx="31.9993" cy="1.66665" r="1.66667" transform="rotate(180 31.9993 1.66665)"
-                    fill="#13C296" />
-                  <circle cx="60.9993" cy="132" r="1.66667" transform="rotate(180 60.9993 132)" fill="#13C296" />
-                  <circle cx="17.3333" cy="132" r="1.66667" transform="rotate(180 17.3333 132)" fill="#13C296" />
-                  <circle cx="60.9993" cy="117.333" r="1.66667" transform="rotate(180 60.9993 117.333)"
-                    fill="#13C296" />
-                  <circle cx="17.3333" cy="117.333" r="1.66667" transform="rotate(180 17.3333 117.333)"
-                    fill="#13C296" />
-                  <circle cx="60.9993" cy="102.667" r="1.66667" transform="rotate(180 60.9993 102.667)"
-                    fill="#13C296" />
-                  <circle cx="17.3333" cy="102.667" r="1.66667" transform="rotate(180 17.3333 102.667)"
-                    fill="#13C296" />
-                  <circle cx="60.9993" cy="88" r="1.66667" transform="rotate(180 60.9993 88)" fill="#13C296" />
-                  <circle cx="17.3333" cy="88" r="1.66667" transform="rotate(180 17.3333 88)" fill="#13C296" />
-                  <circle cx="60.9993" cy="73.3333" r="1.66667" transform="rotate(180 60.9993 73.3333)"
-                    fill="#13C296" />
-                  <circle cx="17.3333" cy="73.3333" r="1.66667" transform="rotate(180 17.3333 73.3333)"
-                    fill="#13C296" />
-                  <circle cx="60.9993" cy="45" r="1.66667" transform="rotate(180 60.9993 45)" fill="#13C296" />
-                  <circle cx="17.3333" cy="45" r="1.66667" transform="rotate(180 17.3333 45)" fill="#13C296" />
-                  <circle cx="60.9993" cy="16" r="1.66667" transform="rotate(180 60.9993 16)" fill="#13C296" />
-                  <circle cx="17.3333" cy="16" r="1.66667" transform="rotate(180 17.3333 16)" fill="#13C296" />
-                  <circle cx="60.9993" cy="59" r="1.66667" transform="rotate(180 60.9993 59)" fill="#13C296" />
-                  <circle cx="17.3333" cy="59" r="1.66667" transform="rotate(180 17.3333 59)" fill="#13C296" />
-                  <circle cx="60.9993" cy="30.6666" r="1.66667" transform="rotate(180 60.9993 30.6666)"
-                    fill="#13C296" />
-                  <circle cx="17.3333" cy="30.6666" r="1.66667" transform="rotate(180 17.3333 30.6666)"
-                    fill="#13C296" />
-                  <circle cx="60.9993" cy="1.66665" r="1.66667" transform="rotate(180 60.9993 1.66665)"
-                    fill="#13C296" />
-                  <circle cx="17.3333" cy="1.66665" r="1.66667" transform="rotate(180 17.3333 1.66665)"
-                    fill="#13C296" />
-                  <circle cx="46.3333" cy="132" r="1.66667" transform="rotate(180 46.3333 132)" fill="#13C296" />
-                  <circle cx="2.66536" cy="132" r="1.66667" transform="rotate(180 2.66536 132)" fill="#13C296" />
-                  <circle cx="46.3333" cy="117.333" r="1.66667" transform="rotate(180 46.3333 117.333)"
-                    fill="#13C296" />
-                  <circle cx="2.66536" cy="117.333" r="1.66667" transform="rotate(180 2.66536 117.333)"
-                    fill="#13C296" />
-                  <circle cx="46.3333" cy="102.667" r="1.66667" transform="rotate(180 46.3333 102.667)"
-                    fill="#13C296" />
-                  <circle cx="2.66536" cy="102.667" r="1.66667" transform="rotate(180 2.66536 102.667)"
-                    fill="#13C296" />
-                  <circle cx="46.3333" cy="88" r="1.66667" transform="rotate(180 46.3333 88)" fill="#13C296" />
-                  <circle cx="2.66536" cy="88" r="1.66667" transform="rotate(180 2.66536 88)" fill="#13C296" />
-                  <circle cx="46.3333" cy="73.3333" r="1.66667" transform="rotate(180 46.3333 73.3333)"
-                    fill="#13C296" />
-                  <circle cx="2.66536" cy="73.3333" r="1.66667" transform="rotate(180 2.66536 73.3333)"
-                    fill="#13C296" />
-                  <circle cx="46.3333" cy="45" r="1.66667" transform="rotate(180 46.3333 45)" fill="#13C296" />
-                  <circle cx="2.66536" cy="45" r="1.66667" transform="rotate(180 2.66536 45)" fill="#13C296" />
-                  <circle cx="46.3333" cy="16" r="1.66667" transform="rotate(180 46.3333 16)" fill="#13C296" />
-                  <circle cx="2.66536" cy="16" r="1.66667" transform="rotate(180 2.66536 16)" fill="#13C296" />
-                  <circle cx="46.3333" cy="59" r="1.66667" transform="rotate(180 46.3333 59)" fill="#13C296" />
-                  <circle cx="2.66536" cy="59" r="1.66667" transform="rotate(180 2.66536 59)" fill="#13C296" />
-                  <circle cx="46.3333" cy="30.6666" r="1.66667" transform="rotate(180 46.3333 30.6666)"
-                    fill="#13C296" />
-                  <circle cx="2.66536" cy="30.6666" r="1.66667" transform="rotate(180 2.66536 30.6666)"
-                    fill="#13C296" />
-                  <circle cx="46.3333" cy="1.66665" r="1.66667" transform="rotate(180 46.3333 1.66665)"
-                    fill="#13C296" />
-                  <circle cx="2.66536" cy="1.66665" r="1.66667" transform="rotate(180 2.66536 1.66665)"
-                    fill="#13C296" />
-                </svg>
+              <span class="flex items-center gap-1">
+                <i class="bi bi-lightning-charge-fill text-amber-500 text-sm"></i> Respon Cepat & Tanggap
               </span>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Modern Clean Footer -->
+    <footer class="mt-20 border-t border-slate-200 bg-slate-900 text-slate-300 pt-12 pb-8">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-20">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pb-10 border-b border-slate-800">
+          <div>
+            <div class="flex items-center gap-3 mb-4">
+              <img src="/src/assets/logo.png" alt="Logo" class="h-10 w-10 bg-white rounded-full p-1" />
+              <span class="font-bold text-lg text-white">Ahli Mampet &amp; Sedot WC</span>
+            </div>
+            <p class="text-sm text-slate-400 leading-relaxed">
+              Solusi terpercaya perawatan saluran mampet, kuras septic tank, dan pembersihan tandon air untuk wilayah Surabaya, Sidoarjo, dan Gresik.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="font-bold text-white text-base mb-4">Navigasi Cepat</h4>
+            <ul class="space-y-2 text-sm">
+              <li><a href="#about_us" class="hover:text-blue-400 transition-colors">Tentang Kami</a></li>
+              <li><a href="#vision_mission" class="hover:text-blue-400 transition-colors">Visi &amp; Misi</a></li>
+              <li><a href="#services" class="hover:text-blue-400 transition-colors">Layanan Kami</a></li>
+              <li><a href="#contact_us" class="hover:text-blue-400 transition-colors">Hubungi Kami</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-bold text-white text-base mb-4">Kontak Cepat</h4>
+            <p class="text-sm text-slate-400 mb-2">
+              <i class="bi bi-geo-alt text-blue-400"></i> Waru, Sidoarjo, Jawa Timur
+            </p>
+            <p class="text-sm text-slate-400 mb-2">
+              <i class="bi bi-whatsapp text-emerald-400"></i> 0878-1081-6155
+            </p>
+            <p class="text-sm text-slate-400">
+              <i class="bi bi-telephone text-blue-400"></i> 0821-4530-0565
+            </p>
+            <div class="mt-4 flex gap-3 text-lg">
+              <a href="https://www.facebook.com/share/18nbDrazZo/" target="_blank" rel="noopener" class="h-9 w-9 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:bg-blue-600 hover:text-white transition-colors" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="https://wa.me/6287810816155" target="_blank" rel="noopener" class="h-9 w-9 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:bg-emerald-600 hover:text-white transition-colors" aria-label="WhatsApp">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-6 flex flex-wrap items-center justify-between text-xs text-slate-500 gap-4">
+          <p>© 2026 Ahli Mampet dan Sedot WC. Seluruh hak cipta dilindungi.</p>
+          <p class="flex items-center gap-1">
+            <i class="bi bi-shield-check text-blue-400"></i> Pelayanan Profesional &amp; Bersahabat
+          </p>
+        </div>
+      </div>
+    </footer>
   </section>
 </template>
 

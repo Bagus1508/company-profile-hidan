@@ -1,7 +1,7 @@
 <template>
-  <section id="about_us" class="overflow-hidden bg-gray-300 pb-12 pt-20 lg:pb-[90px] lg:pt-[120px] text-gray-800">
+  <section id="about_us" class="overflow-hidden bg-white pb-12 pt-20 lg:pb-[90px] lg:pt-[120px] text-slate-800">
     <div class="container mx-auto">
-      <div class="lg:mx-20 max-sm:mx-10 flex flex-wrap items-center justify-between">
+      <div class="lg:mx-20 max-sm:mx-6 flex flex-wrap items-center justify-between">
         <div class="w-full px-4 lg:w-6/12">
           <div class="-mx-3 flex items-center sm:-mx-4">
             <div class="w-full px-3 sm:px-4 xl:w-3/4">
@@ -145,25 +145,31 @@
             </div>
           </div>
         </div>
-        <div class="w-full px-4 lg:w-1/2 xl:w-5/12" data-aos="zoom-in" data-aos-duration="500">
+        <div class="w-full px-4 lg:w-1/2 xl:w-5/12" data-aos="fade-up" data-aos-duration="500">
           <div class="mt-10 lg:mt-0">
-            <h2 class="mb-5 text-3xl font-bold sm:text-[40px]/[48px]">
+            <span class="mb-2 block text-lg font-semibold text-blue-600">
+              Mengenal Kami
+            </span>
+            <h2 class="mb-6 text-3xl font-extrabold text-slate-900 sm:text-[40px]/[48px]">
               Tentang Kami
             </h2>
-            <p class="mb-5 text-base text-body-color">
+            <p class="mb-5 text-base text-slate-600 leading-relaxed">
               Kami adalah penyedia jasa profesional yang bergerak di bidang perawatan dan perbaikan saluran air. Fokus
               utama kami adalah menangani berbagai permasalahan saluran pipa mampet di rumah, kantor, maupun tempat
-              usaha Anda.<br>
-              <br>
-              Kami melayani: <br>
-              ✔ WC mampet <br>
-              ✔ Saluran kamar mandi mampet<br>
-              ✔ Kran air mampet<br>
-              ✔ Sink/dapur mampet<br>
-              ✔ Bathub mampet<br>
-              ✔ Back control mampet<br>
-              ✔ Segala jenis saluran pipa yang tersumbat<br>
-              <br>
+              usaha Anda.
+            </p>
+            <div class="mb-5">
+              <h3 class="font-semibold text-slate-800 mb-3">Layanan Spesialis Kami:</h3>
+              <ul class="list-none space-y-2 text-slate-600">
+                <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-blue-600"></i> WC mampet</li>
+                <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-blue-600"></i> Saluran kamar mandi mampet</li>
+                <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-blue-600"></i> Kran air mampet</li>
+                <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-blue-600"></i> Sink/dapur mampet</li>
+                <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-blue-600"></i> Bathub & Back control mampet</li>
+                <li class="flex items-center gap-2"><i class="bi bi-check-circle-fill text-blue-600"></i> Segala jenis saluran pipa yang tersumbat</li>
+              </ul>
+            </div>
+            <p class="text-base text-slate-600 font-medium bg-blue-50 p-4 rounded-xl border-l-4 border-blue-600">
               Dengan tim berpengalaman dan peralatan lengkap, kami siap membantu Anda mengatasi masalah saluran mampet
               dengan cepat, bersih, dan tanpa merusak instalasi.
             </p>
